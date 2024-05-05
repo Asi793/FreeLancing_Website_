@@ -1,0 +1,130 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    padding: 30px;
+}
+
+.hero .home_box img{
+    height: 25em;
+}
+
+.hero .home_box nav {
+    margin-top: 20px;
+}
+
+.hero .home_box nav a {
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: white;
+    background: var(--primary-color);
+    border-radius: 3px;
+    border: solid;
+}
+
+
+
+
+
+
+.get_started {
+    text-align: center;
+}
+
+.circle_step {
+    height: 30px;
+    width: 30px;
+    padding: 30px;
+    border: solid;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.context {
+    margin-top: 5rem;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+
+    border: solid red;
+}
+
+
+
+
+
+
+
+
+.work {
+    margin-top: 5rem;
+}
+.work h3{
+    text-align: center;
+}
+.work_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-start: -1/1;
+}
+
+.work_box {
+    padding: 30px;
+    border: solid red;
+}
+
+.work_box img {
+    height: 200px;
+    width: 90%;
+}
+
+
+
+.reviews {
+    padding: 50px;
+}
+
+.reviews header h3 {
+    text-align: center;
+}
+
+.reviews_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+
+    padding: 30px;
+}
+
+.flex_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 10rem;
+}
+
+.review_box {
+    background: skyblue;
+    padding: 30px;
+
+}
+
+
+.hero, .get_started, .work, .reviews {
+    padding: 30px;
+}

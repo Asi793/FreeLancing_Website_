@@ -1,0 +1,59 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background: black;
+    color: white;
+
+    height: 200px   ;
+    padding: 20px;
+}
+
+footer .foo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foo_2 .icons i{
+    color: black;
+    background: white;
+    
+    padding: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+
+    font-size: 20px;
+    border: 1px solid white;
+}
+.foo_2 .icons i:hover{
+    background: black;
+    color: white;
+    transition: .3s;
+}
+
+.foo_3 a{
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.foo_3 a:hover{
+    background: black;
+    color: white;
+    transition: .3s;
+}
+
+@media ( max-width: 850px ) {
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
