@@ -1,0 +1,48 @@
+.work_container{
+
+}
+
+.work_container nav {
+    display: flex;
+    align-items: center;
+
+    height: 7vh;
+
+    background: black;
+
+}
+
+.nav_item {
+    padding: 20px 60px;
+    border-right: solid white;
+}
+
+.work_container nav a {
+    color: white;
+}
+
+
+.find_jobs {
+    padding: 30px;
+}
+
+.all_job_posts {
+    display: grid;
+    gap: 50px;
+}
+
+.job {
+    background: whitesmoke;
+    padding: 30px;
+
+    display: grid;
+    gap: 15px;
+
+    border-radius: 7px;
+
+    border-bottom: 1px solid black;
+}
+
+.job h2 {
+    text-decoration: underline;
+}

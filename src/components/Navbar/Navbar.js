@@ -1,13 +1,17 @@
 import {Link, Route, Routes } from "react-router-dom";
 import logo from '../../assets/logo.jpg'
 
+import './Navbar.css'
+
 import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Login from '../Login/Login'
 import SignUp from '../SignUp/SignUp'
-
-import './Navbar.css'
-
+import Services from "../Services";
+import Work from '../Work/Work'
+import Hire from "../Hire/Hire";
+import Postajob from "../Hire/Postajob";
+import Findajob from '../Work/findajob'
 
 export default function Navbar() {
     return (
@@ -21,8 +25,6 @@ export default function Navbar() {
                     <label htmlFor="burger"><i className="fa-solid fa-bars"></i></label>
                     <input type="checkbox" name="burger" id="burger" />
                     <ul>
-                        <li><Link to="/Home">Home</Link></li>
-                        <li><Link to="/Contact">Contact</Link></li>
                         <li><Link to="/Login">Login</Link></li>
                         <li><Link to="/SignUp">SignUp</Link></li>
                     </ul>
@@ -37,6 +39,11 @@ export default function Navbar() {
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
+                <Route path="/Services" element={<Services />} />
+                <Route path="/Work" element={<Work />} />
+                <Route path="/Hire" element={<Hire />} />
+                <Route path="/Postajob" element={<Postajob />} />
+                <Route path="/Findajob" element={<Findajob />} />
             </Routes>
         </>
     )
