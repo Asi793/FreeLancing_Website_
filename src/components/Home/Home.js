@@ -1,4 +1,8 @@
 import logo from '../../assets/logo.jpg'
+import backgroundimage from '../../assets/bg_image.jpg'
+import review1 from '../../assets/review1.jpg'
+import review2 from '../../assets/review2.jpg'
+import review3 from '../../assets/review3.jpg'
 import './Home.css'
 
 export default function Home() {
@@ -6,11 +10,7 @@ export default function Home() {
         <>
             <div className="hero">
                 <div className="home_box">
-                    <h1>Connect</h1>
-                    <p>with top freelancers online</p>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident tenetur suscipit asperiores assumenda laborum atque praesentium nemo, totam voluptatum dolore!</p>
-
+                    <h1>The secret of getting ahead is getting started...</h1>
                     <nav>
                         <a href="">Earn</a> 
                         <a href="">Hire</a>
@@ -110,30 +110,30 @@ export default function Home() {
                 <div className="review_box">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
                     <div className="flex_box">
-                        <img src="" alt="image" />
+                        <img src={review1} alt="image" />
                         <div>
-                            <p>name</p>
-                            <p>rating</p>
+                            <p>name : Asritha</p>
+                            <p>rating : 5</p>
                         </div>
                     </div>
                 </div>
                 <div className="review_box">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
                     <div className="flex_box">
-                        <img src="" alt="image" />
+                        <img src={review2} alt="image" />
                         <div>
-                            <p>name</p>
-                            <p>rating</p>
+                            <p>name : Harsha </p>
+                            <p>rating : 5</p>
                         </div>
                     </div>
                 </div>
                 <div className="review_box">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
                     <div className="flex_box">
-                        <img src="" alt="image" />
+                        <img src={review3} alt="image" />
                         <div>
-                            <p>name</p>
-                            <p>rating</p>
+                            <p>name : Meghana</p>
+                            <p>rating : 5</p>
                         </div>
                     </div>
                 </div>

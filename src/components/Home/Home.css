@@ -120,10 +120,13 @@
 
 .review_box {
     background: skyblue;
-    padding: 30px;
+    padding: 20px;
 
 }
 
+.reviews_container .review_box img{
+    height: 350px;
+}
 
 .hero, .get_started, .work, .reviews {
     padding: 30px;

@@ -11,6 +11,7 @@ export default function SignupNavbar() {
             <div className="navbar">
                 <Link to="/Home">
                     <img src={logo} alt="logo" />
+                    <p>FreeLancing Website</p>
                 </Link>
                 <nav>
                     <label htmlFor="burger"><i className="fa-solid fa-bars"></i></label>
