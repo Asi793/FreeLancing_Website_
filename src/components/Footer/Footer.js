@@ -10,16 +10,16 @@ export default function Footer() {
                 </div>
                 <div className="foo foo_2">
                     <div className="icons">
-                        {/* <i className="fa-brands fa-codepen"></i>
+                        <i className="fa-brands fa-codepen"></i>
                         <i className="fa-brands fa-github"></i>
                         <i className="fa-brands fa-twitch"></i>
-                        <i className="fa-brands fa-discord"></i> */}
+                        <i className="fa-brands fa-discord"></i> 
 
                         <p>icons you want or links you can insert</p>
                     </div>
                 </div>
                 <div className="foo foo_3">
-                    <a href="mailto:yourmail@example">contact us</a>
+                    <a href="ajvasritha17@gmail.com">contact us</a>
                 </div>
             </footer>
         </>

@@ -1,5 +1,5 @@
 import logo from '../../assets/logo.jpg'
-import backgroundimage from '../../assets/bg_image.jpg'
+import backgroundImage from '../../assets/bg_image.jpg'
 import review1 from '../../assets/review1.jpg'
 import review2 from '../../assets/review2.jpg'
 import review3 from '../../assets/review3.jpg'
@@ -17,7 +17,7 @@ export default function Home() {
                     </nav>
                 </div>
                 <div className="home_box">
-                    <img src={logo} alt="logo" />
+                    <img src={backgroundImage} alt="logo" />
                 </div>
             </div>
 
