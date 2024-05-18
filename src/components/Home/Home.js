@@ -3,6 +3,7 @@ import backgroundImage from '../../assets/bg_image.jpg'
 import review1 from '../../assets/review1.jpg'
 import review2 from '../../assets/review2.jpg'
 import review3 from '../../assets/review3.jpg'
+import bgimage from '../../assets/light_blue.jpg'
 import './Home.css'
 
 export default function Home() {
@@ -19,6 +20,19 @@ export default function Home() {
                 <div className="home_box">
                     <img src={backgroundImage} alt="logo" />
                 </div>
+            </div>
+
+            <div className="service">
+                <img src={bgimage} alt="backgroundimage" />
+                <h1>The best part? Everything.</h1>
+                <h2>Stick to your budget</h2>
+                <p>Find the right service for every price point. No hourly rates, just project-based pricing.</p>
+                <h2>Get quality work done quickly</h2>
+                <p>Hand your project over to a talented freelancer in minutes, get long-lasting results.</p>
+                <h2>Pay when you're happy</h2>
+                <p>Upfront quotes mean no surprises. Payments only get released when you approve.</p>
+                <h2>Count on 24/7 support</h2>
+                <p>Our round-the-clock support team is available to help anytime, anywhere.</p>
             </div>
 
             <div className="get_started">
@@ -142,3 +156,4 @@ export default function Home() {
         </>
     )
 }
+

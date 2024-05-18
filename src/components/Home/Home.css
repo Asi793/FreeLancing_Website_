@@ -23,13 +23,35 @@
 }
 
 
+.service{
+    margin: 30px;
+    text-align: center;
+    
+}
 
+.service img {
+    height: 500px;
+    width: 100%;
 
+}
+
+.service h1{
+    color: rgb(255, 0, 0);
+}
+
+.service h2{
+    padding: 10px;
+}
+
+.service p{
+    padding: 10px;
+}
 
 
 .get_started {
     text-align: center;
 }
+
 
 .circle_step {
     height: 30px;

@@ -6,16 +6,16 @@ export default function Footer() {
         <>
             <footer>
                 <div className="foo foo_1">
-                    <p>about your website or any links</p>
+                    <p></p>
                 </div>
                 <div className="foo foo_2">
                     <div className="icons">
-                        <i className="fa-brands fa-codepen"></i>
+                        <i className="fa-brands fa-facebook"></i>
                         <i className="fa-brands fa-github"></i>
-                        <i className="fa-brands fa-twitch"></i>
-                        <i className="fa-brands fa-discord"></i> 
+                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-whatsapp"></i> 
 
-                        <p>icons you want or links you can insert</p>
+                        
                     </div>
                 </div>
                 <div className="foo foo_3">
