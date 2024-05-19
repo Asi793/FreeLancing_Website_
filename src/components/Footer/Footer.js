@@ -6,16 +6,18 @@ export default function Footer() {
         <>
             <footer>
                 <div className="foo foo_1">
-                    <p></p>
+                    <h1>Ctogeries</h1>
+                    <p>Life Style</p>
+                    <p>Graphics and Design</p>
+                    <p>Digital Marketing</p>
+                    <p>Data</p>
                 </div>
                 <div className="foo foo_2">
                     <div className="icons">
                         <i className="fa-brands fa-facebook"></i>
                         <i className="fa-brands fa-github"></i>
                         <i className="fa-brands fa-instagram"></i>
-                        <i className="fa-brands fa-whatsapp"></i> 
-
-                        
+                        <i className="fa-brands fa-whatsapp"></i>  
                     </div>
                 </div>
                 <div className="foo foo_3">

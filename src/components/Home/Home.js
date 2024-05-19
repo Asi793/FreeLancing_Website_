@@ -46,25 +46,25 @@ export default function Home() {
                         <div className="circle_step">
                             <p>1</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem!</p>
+                        <p>Life Style</p>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>2</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem!</p>
+                        <p>Grafics and Design</p>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>3</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem!</p>
+                        <p>Digital Marketing</p>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>4</p>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem!</p>
+                        <p>Data</p>
                     </div>
                 </div>
             </div>

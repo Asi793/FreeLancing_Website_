@@ -26,6 +26,7 @@
 .service{
     margin: 30px;
     text-align: center;
+    background-image: url(../../assets/light_blue.jpg);
     
 }
 
@@ -38,6 +39,7 @@
 .service h1{
     color: rgb(255, 0, 0);
 }
+
 
 .service h2{
     padding: 10px;
@@ -85,10 +87,9 @@
     border: solid red;
 }
 
-
-
-
-
+.box p{
+    padding: 10px;
+}
 
 
 
