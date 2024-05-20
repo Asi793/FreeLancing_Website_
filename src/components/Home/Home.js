@@ -23,7 +23,6 @@ export default function Home() {
             </div>
 
             <div className="service">
-                <img src={bgimage} alt="backgroundimage" />
                 <h1>The best part? Everything.</h1>
                 <h2>Stick to your budget</h2>
                 <p>Find the right service for every price point. No hourly rates, just project-based pricing.</p>
@@ -122,7 +121,7 @@ export default function Home() {
 
                 <div className="reviews_container">
                 <div className="review_box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
+                    <p>Using FreelanceHub was a game-changer for my business. I found a talented graphic designer within hours who delivered an outstanding logo that perfectly captured my brand's identity. The platform is user-friendly, and the pool of freelancers is top-notch. Highly recommend!</p>
                     <div className="flex_box">
                         <img src={review1} alt="image" />
                         <div>
@@ -132,7 +131,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="review_box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
+                    <p>FreelanceHub connected me with an exceptional content writer who helped elevate our marketing campaigns. The collaboration was seamless, and the quality of work exceeded my expectations. The ability to find skilled professionals quickly is invaluable. Fantastic service!</p>
                     <div className="flex_box">
                         <img src={review2} alt="image" />
                         <div>
@@ -142,7 +141,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="review_box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias eligendi velit commodi vero amet dicta tenetur quo! Excepturi perferendis tempora voluptas corrupti corporis ratione repellendus, eaque aut error doloribus!</p>
+                    <p>I needed a freelance social media manager to help grow my online presence and connect with more clients. FreelanceHub made it easy to find someone with the right experience and passion for the fitness industry. My engagement rates have soared, and I’ve attracted new clients. The platform is incredibly efficient and reliable</p>
                     <div className="flex_box">
                         <img src={review3} alt="image" />
                         <div>

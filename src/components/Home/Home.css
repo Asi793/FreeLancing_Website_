@@ -26,7 +26,8 @@
 .service{
     margin: 30px;
     text-align: center;
-    background-image: url(../../assets/light_blue.jpg);
+    background-image:url('../../assets/light_blue.jpg');
+    
     
 }
 

@@ -23,6 +23,11 @@ export default function Footer() {
                 <div className="foo foo_3">
                     <a href="ajvasritha17@gmail.com">contact us</a>
                 </div>
+
+                
+                <p>&copy; 2024 Freelance Website. All rights reserved.</p>
+                        
+
             </footer>
         </>
     )
