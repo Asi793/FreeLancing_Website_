@@ -1,5 +1,5 @@
 import './Footer.css'
-
+import ContactPage from '../Contact/Contact'
 
 export default function Footer() {
     return (
@@ -25,6 +25,7 @@ export default function Footer() {
                 </div>
 
                 
+
                 <p>&copy; 2024 Freelance Website. All rights reserved.</p>
                         
 
