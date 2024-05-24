@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.jpg'
+import ContactPage from '../Contact/Contact'
 import backgroundImage from '../../assets/bg_image.jpg'
 import review1 from '../../assets/review1.jpg'
 import review2 from '../../assets/review2.jpg'

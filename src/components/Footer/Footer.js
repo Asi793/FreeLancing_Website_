@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="foo foo_1">
+                <div className="categorires">
                     <h1>Ctogeries</h1>
                     <p>Life Style</p>
                     <p>Graphics and Design</p>
@@ -21,13 +21,12 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="foo foo_3">
-                    <a href="ajvasritha17@gmail.com">contact us</a>
+                    <a href="./contact">contact us</a>
                 </div>
 
                 
-
-                <p>&copy; 2024 Freelance Website. All rights reserved.</p>
-                        
+                    <p>&copy; 2024 Freelance Website. All rights reserved.</p>
+                
 
             </footer>
         </>

@@ -1,6 +1,7 @@
 import './Login.css';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 export default function Login({ setIsLoggedIn }) {
     const navigate = useNavigate(); 
@@ -23,9 +24,13 @@ export default function Login({ setIsLoggedIn }) {
                 <h1>Login Form</h1>
                 <input type="text" name="username" id="username" placeholder="Enter Username" required value={username} onChange={(e) => setUsername(e.target.value)} />
                 <input type="password" name="password" id="password" placeholder="Enter Password" required value={password} onChange={(e) => setPassword(e.target.value)} />
+                
                 <input type="submit" value="Login" />
                 {errorMessage && <p>{errorMessage}</p>}
+                <Link to="/forgot-password">Forgot Password</Link>
             </form>
         </div>
     );
 }
+
+
