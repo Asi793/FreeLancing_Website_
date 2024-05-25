@@ -13,6 +13,9 @@ export default  function Worknavbar() {
                     <div className="nav_item">
                         <Link to="/Findajob">Find a Job</Link>
                     </div>
+                    <div className="nav_item">
+                        <Link to="/completedjobs">Completed Jobs</Link>
+                    </div>
                 </nav>
             </div>
         </>

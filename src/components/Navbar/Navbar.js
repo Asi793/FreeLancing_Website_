@@ -12,6 +12,8 @@ import Work from '../Work/Work'
 import Hire from "../Hire/Hire";
 import Postajob from "../Hire/Postajob";
 import Findajob from '../Work/findajob'
+import listofjobs from '../Hire/listofjobs'
+import completedjobs from '../Work/completedjobs'
 
 export default function Navbar() {
     return (
@@ -44,6 +46,8 @@ export default function Navbar() {
                 <Route path="/Hire" element={<Hire />} />
                 <Route path="/Postajob" element={<Postajob />} />
                 <Route path="/Findajob" element={<Findajob />} />
+                <Route path="/listofjobs" element={<listofjobs />} />
+                <Route path="/completedjobs" element={<completedjobs />} />
             </Routes>
         </>
     )

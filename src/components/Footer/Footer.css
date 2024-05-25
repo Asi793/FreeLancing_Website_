@@ -17,6 +17,7 @@ footer{
 
     height: 200px   ;
     padding: 20px;
+    
 }
 
 footer .foo{
@@ -65,3 +66,12 @@ footer .foo{
         gap: 30px;
     }
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100%;
+  }

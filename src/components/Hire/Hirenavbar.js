@@ -13,6 +13,9 @@ export default function Hirenavbar() {
                     <div className="nav_item">
                         <Link to="/postajob">Post a job</Link>
                     </div>
+                    <div className="nav_item">
+                        <Link to="/listofjobs">List Of Jobs</Link>
+                    </div>
                 </nav>
             </div>
         </>
