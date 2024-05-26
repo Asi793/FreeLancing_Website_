@@ -1,1 +1,0 @@
-import './life_style.css'

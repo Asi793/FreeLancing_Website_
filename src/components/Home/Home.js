@@ -5,6 +5,7 @@ import review1 from '../../assets/review1.jpg'
 import review2 from '../../assets/review2.jpg'
 import review3 from '../../assets/review3.jpg'
 import bgimage from '../../assets/light_blue.jpg'
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 export default function Home() {
@@ -46,25 +47,25 @@ export default function Home() {
                         <div className="circle_step">
                             <p>1</p>
                         </div>
-                        <p>Life Style</p>
+                        <Link to="/LifeStyle">Life Style</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>2</p>
                         </div>
-                        <p>Grafics and Design</p>
+                        <Link to="/Grafic_And_Design">Grafics and Design</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>3</p>
                         </div>
-                        <p>Digital Marketing</p>
+                        <Link to="/Digital_Marketing">Digital Marketing</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>4</p>
                         </div>
-                        <p>Data</p>
+                        <Link to="/Data">Data</Link>
                     </div>
                 </div>
             </div>
