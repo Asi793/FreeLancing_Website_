@@ -54,11 +54,13 @@
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
+    
   }
   
   .completed-job-list h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
   }
   
   .completed-job-item {
@@ -67,13 +69,47 @@
     margin-bottom: 15px;
     border-radius: 5px;
     background-color: #e0ffe0;
+    
   }
   
   .completed-job-item h2 {
     margin: 0 0 10px;
+    
   }
   
   .completed-job-item p {
     margin: 5px 0;
+    
   }
+
+
+
+  .categories-navbar {
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .categories-navbar h2 {
+    margin-bottom: 0.5em;
+  }
+  
+  .categories-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories-navbar li {
+    margin-bottom: 0.5em;
+  }
+  
+  .categories-navbar label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .categories-navbar input[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  
   

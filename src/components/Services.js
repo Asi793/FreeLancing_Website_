@@ -11,6 +11,7 @@ export default function Services() {
                 <div className="service_box">
                     <Link to="/hire">HIRE</Link>
                 </div>
+                
             </div>
         </>
     )

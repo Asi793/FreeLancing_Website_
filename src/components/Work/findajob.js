@@ -1,10 +1,12 @@
 import './Work.css'
 import Worknavbar from './Worknavbar'
+import CategoriesNavbar from './CategoriesNavbar'
 
 export default function Findajob() {
     return (
         <>
             <Worknavbar />
+            <CategoriesNavbar />
 
             <div className="find_jobs" id='find_jobs'>
                 <h1>Find a Job</h1>

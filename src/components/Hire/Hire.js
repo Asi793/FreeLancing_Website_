@@ -1,11 +1,13 @@
 
 import Hirenavbar from './Hirenavbar'
+import CategoriesNavbar from '../Work/CategoriesNavbar'
 import './Hire.css'
 
 export default function Hire() {
     return (
         <>
             <Hirenavbar />
+            <CategoriesNavbar />
 
             <div className="my_hiring">
                 <h1>My Hiring</h1>

@@ -1,3 +1,5 @@
+import Category_Services from '../workcategories'
+import CategoriesNavbar from './CategoriesNavbar'
 import './Work.css'
 import Worknavbar from './Worknavbar'
 
@@ -5,6 +7,8 @@ export default function Work() {
     return (
         <>
             <Worknavbar />
+            <CategoriesNavbar />
+            
 
             <div className="find_jobs" id='find_jobs'>
                 <h1>Current Jobs</h1>

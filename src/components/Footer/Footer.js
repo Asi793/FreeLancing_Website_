@@ -1,5 +1,7 @@
 import './Footer.css'
+import { Link } from 'react-router-dom';
 import ContactPage from '../Contact/Contact'
+
 
 export default function Footer() {
     return (
@@ -7,10 +9,15 @@ export default function Footer() {
             <footer>
                 <div className="categorires">
                     <h1>Ctogeries</h1>
+                    <Link to="/lifestyle">Life Style</Link>
+                    <Link to="/GraficDesign">Graphics and Design</Link>
+                    <Link to="/DigitalMarketing">Digital Marketing</Link>
+                    <Link to="/Data">Data</Link>
                     <p>Life Style</p>
                     <p>Graphics and Design</p>
                     <p>Digital Marketing</p>
                     <p>Data</p>
+                    
                 </div>
                 <div className="foo foo_2">
                     <div className="icons">
@@ -18,6 +25,7 @@ export default function Footer() {
                         <i className="fa-brands fa-github"></i>
                         <i className="fa-brands fa-instagram"></i>
                         <i className="fa-brands fa-whatsapp"></i>  
+                        <i className="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
                 <div className="foo foo_3">

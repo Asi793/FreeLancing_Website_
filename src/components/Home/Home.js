@@ -17,6 +17,7 @@ export default function Home() {
                     <nav>
                         <a href="">Earn</a> 
                         <a href="">Hire</a>
+                        
                     </nav>
                 </div>
                 <div className="home_box">
@@ -47,25 +48,25 @@ export default function Home() {
                         <div className="circle_step">
                             <p>1</p>
                         </div>
-                        <Link to="/LifeStyle">Life Style</Link>
+                        <Link to="/LifeStyle" className='font'>Life Style</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>2</p>
                         </div>
-                        <Link to="/Grafic_And_Design">Grafics and Design</Link>
+                        <Link to="/Grafic_And_Design" className='font'>Grafics and Design</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>3</p>
                         </div>
-                        <Link to="/Digital_Marketing">Digital Marketing</Link>
+                        <Link to="/Digital_Marketing" className='font'>Digital Marketing</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>4</p>
                         </div>
-                        <Link to="/Data">Data</Link>
+                        <Link to="/Data" className='font'>Data</Link>
                     </div>
                 </div>
             </div>
