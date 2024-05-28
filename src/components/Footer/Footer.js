@@ -9,14 +9,10 @@ export default function Footer() {
             <footer>
                 <div className="categorires">
                     <h1>Ctogeries</h1>
-                    <Link to="/lifestyle">Life Style</Link>
-                    <Link to="/GraficDesign">Graphics and Design</Link>
-                    <Link to="/DigitalMarketing">Digital Marketing</Link>
-                    <Link to="/Data">Data</Link>
-                    <p>Life Style</p>
-                    <p>Graphics and Design</p>
-                    <p>Digital Marketing</p>
-                    <p>Data</p>
+                    <Link to="/lifestyle" className='links'>Life Style</Link>
+                    <Link to="/GraphicDesign" className='links'>Graphics and Design</Link>
+                    <Link to="/DigitalMarketing" className='links'>Digital Marketing</Link>
+                    <Link to="/Data" className='links'>Data</Link>
                     
                 </div>
                 <div className="foo foo_2">

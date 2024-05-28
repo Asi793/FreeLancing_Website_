@@ -1,0 +1,60 @@
+/* Travel.css */
+.travel-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .travel-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .travel-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .travel-item {
+    display: flex;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .travel-item:hover {
+    background-color: #388e3c;
+  }
+  
+  .travel-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .travel-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .travel-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .travel-info p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+  }
+  

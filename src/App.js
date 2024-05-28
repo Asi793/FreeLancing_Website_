@@ -8,8 +8,11 @@ import ResetPassword from './components/resetpassword';
 import JobList from './components/Hire/listofjobs';
 import CompletedJobList from './components/Work/completedjobs';
 import Lifestyle from './components/LifeStyle/lifestyle';
-import DigitalMarketing from './components/Digital_Marketing/digitalmarketing';
+import GraphicDesign from './components/GraphicDesign/graphicdesign';
+import DigitalMarketing from './components/DigitalMarketing/digitalmarketing';
+import Data from './components/Data/data';
 import CategoriesNavbar from './components/Work/CategoriesNavbar';
+import Travel from './components/LifeStyle/Travel/Travel'
 
 // import SignupNavbar from './components/Navbar/SignupNavbar';
 
@@ -26,8 +29,10 @@ function App() {
               <Route path="/completedjobs" element={<CompletedJobList />} />
               <Route path="/listofjobs" element={<JobList />} />
               <Route path="/lifestyle" element={<Lifestyle />} />
-              <Route path="/Digital_Marketing" element={<DigitalMarketing />} />
-              
+              <Route path="/GraphicDesign" element={<GraphicDesign />} />
+              <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
+              <Route path="/Data" element={<Data />} />
+              <Route path="/Travel" element={<Travel />} />
           </Routes>
       
       <Footer />

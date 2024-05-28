@@ -1,5 +1,5 @@
-/* Data.css */
-.category_container {
+/* graphicdesign.css */
+.graphic-design-container {
     margin: 50px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -7,21 +7,20 @@
     background-color: #f9f9f9;
     max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
   }
   
-  .category_container h2 {
+  .graphic-design-container h2 {
     text-align: center;
     color: #333;
   }
   
-  .category-list {
+  .graphic-design-list {
     list-style: none;
     padding: 0;
   }
   
-  .category-item {
-    background-color: #007bff;
+  .graphic-design-item {
+    background-color: #4caf50;
     color: white;
     margin: 10px 0;
     padding: 10px;
@@ -31,7 +30,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .category-item:hover {
-    background-color: #0056b3;
+  .graphic-design-item:hover {
+    background-color: #388e3c;
   }
   

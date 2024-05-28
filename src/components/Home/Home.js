@@ -54,13 +54,13 @@ export default function Home() {
                         <div className="circle_step">
                             <p>2</p>
                         </div>
-                        <Link to="/Grafic_And_Design" className='font'>Grafics and Design</Link>
+                        <Link to="/GraphicDesign" className='font'>Graphic and Design</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
                             <p>3</p>
                         </div>
-                        <Link to="/Digital_Marketing" className='font'>Digital Marketing</Link>
+                        <Link to="/DigitalMarketing" className='font'>Digital Marketing</Link>
                     </div>
                     <div className="box">
                         <div className="circle_step">
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
 
 
-            <div className="work">
+            {/* <div className="work">
                 <header>
                     <h3>WORK WITH TOP - CLASS TALENTS</h3>
                 </header>
@@ -114,7 +114,7 @@ export default function Home() {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <div className="reviews">

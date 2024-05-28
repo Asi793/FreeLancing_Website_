@@ -4,7 +4,7 @@ a{
 }
 
 .catogeries{
-    display: flex;
+    display:grid;
     
 }
 
@@ -12,7 +12,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    background: black;
+    background: rgb(11, 11, 11);
     color: white;
 
     height: 200px   ;
@@ -20,11 +20,20 @@ footer{
     
 }
 
+
+
 footer .foo{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
+}
+
+
+.links{
+    display: flex;
+    margin: 5px;
+    color: white;
 }
 
 .foo_2 .icons i{

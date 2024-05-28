@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,4 +39,42 @@
     color: #090909;
     line-height: 1.6;
   }
-  
+   */
+
+
+
+   /* src/LifestyleCategory.css */
+.lifestyle-container {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lifestyle-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.lifestyle-list {
+  list-style: none;
+  padding: 0;
+}
+
+.lifestyle-item {
+  background-color: #ff9800;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lifestyle-item:hover {
+  background-color: #e68a00;
+}
