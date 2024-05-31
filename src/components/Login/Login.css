@@ -8,12 +8,9 @@
 .container form {
     width: 400px;
     box-shadow: 0 0 1px 1px gray;
-
     display: flex;
     flex-direction: column;
-
     padding: 20px;
-
     border-radius: 3px;
 }
 
