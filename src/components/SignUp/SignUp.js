@@ -1,6 +1,7 @@
 // SignUpPage.js
 import React, { useState } from 'react';
 import './SignUp.css';
+import axios from 'axios';
 
 const SignUp = () => {
     const [formData, setFormData] = useState({
@@ -26,6 +27,21 @@ const SignUp = () => {
             skills: ''
         });
     };
+
+
+    async function formSubmit(){
+        try {
+            const res = await axios.post('http://localhost:8000/signup/', formData);
+            console.log(res.data);
+            alert(res.data.message);
+        } catch (error) {
+            if (error.response) {
+                console.log("Error Response:", error.response.data);
+            } else {
+                console.log("Error:", error.message);
+            }
+        }
+    }
 
     return (
         <div className="signup-page">

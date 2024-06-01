@@ -12,6 +12,7 @@ import GraphicDesign from './components/GraphicDesign/graphicdesign';
 import DigitalMarketing from './components/DigitalMarketing/digitalmarketing';
 import Data from './components/Data/data';
 import CategoriesNavbar from './components/Work/CategoriesNavbar';
+import Profile from './components/Profile/profile'
 import Travel from './components/LifeStyle/Travel/Travel'
 
 // import SignupNavbar from './components/Navbar/SignupNavbar';
@@ -33,6 +34,7 @@ function App() {
               <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
               <Route path="/Data" element={<Data />} />
               <Route path="/CategoriesNavbar" element={<CategoriesNavbar />} />
+              <Route path="/Profile" element={<Profile />} />
               <Route path="/Travel" element={<Travel />} />
           </Routes>
       

@@ -2,6 +2,7 @@ import './Login.css';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 export default function Login({ setIsLoggedIn }) {
     const navigate = useNavigate(); 
@@ -11,11 +12,17 @@ export default function Login({ setIsLoggedIn }) {
 
     const handleSubmit = (event) => {
         event.preventDefault(); 
-        if(username === 'asritha' && password === '123') {
-            navigate('/services'); 
-        } else {
-            setErrorMessage("Invalid Credentials !!!");
-        }
+        formSubmit();
+        // if(username === 'asritha' && password === '123') {
+        //     navigate('/services'); 
+        // } else {
+        //     setErrorMessage("Invalid Credentials !!!");
+        // }
+    }
+
+    async function formSubmit(){
+        const res=await axios.post("http://localhost:8000/login/",{'username':username,'password':password});
+        console.log(res.data);
     }
 
     return (

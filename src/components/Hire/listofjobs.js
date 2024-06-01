@@ -8,7 +8,7 @@ const JobList = () => {
 
   useEffect(() => {
     // Replace with your API endpoint
-    axios.get('https://api.example.com/jobs')
+    axios.get('http://localhost:8000/getjobpost/')
       .then(response => {
         setJobs(response.data);
         setLoading(false);

@@ -72,50 +72,6 @@ export default function Home() {
             </div>
 
 
-            {/* <div className="work">
-                <header>
-                    <h3>WORK WITH TOP - CLASS TALENTS</h3>
-                </header>
-
-                <div className="work_container">
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                    <div className="work_box">
-                        <img src={logo} alt="" />
-                        <h2>lorem lorem</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae corporis veritatis quia quibusdam quasi minima ullam quaerat. Veniam, nostrum?</p>
-                    </div>
-                </div>
-            </div> */}
-
 
             <div className="reviews">
                 <header>
